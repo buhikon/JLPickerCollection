@@ -22,7 +22,7 @@ pod "JLPickerCollection"
 
 ## demo
 
-[![](https://raw.github.com/buhikon/JLAccordion/master/demo.gif)](https://raw.github.com/buhikon/JLAccordion/master/demo.gif)
+[![](https://raw.github.com/buhikon/JLPickerCollection/master/demo.gif)](https://raw.github.com/buhikon/JLPickerCollection/master/demo.gif)
 
 ## Author
 
