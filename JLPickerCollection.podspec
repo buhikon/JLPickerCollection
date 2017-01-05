@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'JLPickerCollection' => ['JLPickerCollection/Classes/*.xib']
   }
-  s.resources = ["classes/*.xib"]
+  s.resources = ["classes/JLDatePickerView.xib","classes/JLTextPickerView.xib"]
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
