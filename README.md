@@ -26,21 +26,21 @@ JLDatePickerView *picker = [JLDatePickerView instance];
 picker.datePicker.datePickerMode = UIDatePickerModeTime;
 picker.datePicker.minuteInterval = 30;
 [picker showPickerViewWithDate:[NSDate date]
-minDate:nil
-maxDate:nil
-onView:self.view
-resultBlock:^(BOOL success, NSDate *date) {
-NSLog(@"success : %d, date : %@", success, date);
-}];
+                       minDate:nil
+                       maxDate:nil
+                        onView:self.view
+                   resultBlock:^(BOOL success, NSDate *date) {
+                       NSLog(@"success : %d, date : %@", success, date);
+                   }];
 ```
 
 ```
 [[JLTextPickerView instance] showPickerView:@[@"AAA",@"BBB",@"ccc",@"111",@"567"]
-currentIndex:2
-onView:self.view
-resultBlock:^(BOOL success, NSInteger index, NSString *name) {
-NSLog(@"success : %d, index : %d, name : %@", success, (int)index, name);
-}];
+                               currentIndex:2
+                                     onView:self.view
+                                resultBlock:^(BOOL success, NSInteger index, NSString *name) {
+                                    NSLog(@"success : %d, index : %d, name : %@", success, (int)index, name);
+                                }];
 ```
 
 ## Demo
