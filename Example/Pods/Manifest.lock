@@ -1,0 +1,16 @@
+PODS:
+  - JLPickerCollection (0.1.0)
+
+DEPENDENCIES:
+  - JLPickerCollection (from `../`)
+
+EXTERNAL SOURCES:
+  JLPickerCollection:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JLPickerCollection: fcc27b4685a649fc2e19debf5d256f3fc3ecfd4c
+
+PODFILE CHECKSUM: 65a3791037b92294d9ae1d3ae5b90ca5c2e39bc8
+
+COCOAPODS: 1.1.1

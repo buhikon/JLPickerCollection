@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JLPickerCollection_Example' do
+  pod 'JLPickerCollection', :path => '../'
+
+  target 'JLPickerCollection_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

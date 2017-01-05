@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JLTextPickerView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yjn-B2-ScH" customClass="UIControl">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="backgroundTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="5U7-DT-ukN"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Np4-kE-suL">
+                    <rect key="frame" x="0.0" y="407" width="375" height="260"/>
+                    <subviews>
+                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gpq-TN-FAr">
+                            <rect key="frame" x="0.0" y="44" width="375" height="216"/>
+                            <connections>
+                                <outlet property="dataSource" destination="iN0-l3-epB" id="V76-LM-Fqd"/>
+                                <outlet property="delegate" destination="iN0-l3-epB" id="gSK-mF-PRF"/>
+                            </connections>
+                        </pickerView>
+                        <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ivj-By-WcZ">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <items>
+                                <barButtonItem style="plain" systemItem="flexibleSpace" id="Dgd-nz-rz5"/>
+                                <barButtonItem systemItem="done" id="LIA-9q-iSD">
+                                    <connections>
+                                        <action selector="doneButtonTapped:" destination="iN0-l3-epB" id="osh-G9-26Z"/>
+                                    </connections>
+                                </barButtonItem>
+                            </items>
+                        </toolbar>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="ivj-By-WcZ" secondAttribute="trailing" id="5QO-9O-u9i"/>
+                        <constraint firstItem="gpq-TN-FAr" firstAttribute="top" secondItem="ivj-By-WcZ" secondAttribute="bottom" id="EFF-yP-DJk"/>
+                        <constraint firstItem="gpq-TN-FAr" firstAttribute="leading" secondItem="Np4-kE-suL" secondAttribute="leading" id="YXR-xU-fyT"/>
+                        <constraint firstAttribute="trailing" secondItem="gpq-TN-FAr" secondAttribute="trailing" id="hZ1-vS-Seh"/>
+                        <constraint firstAttribute="bottom" secondItem="gpq-TN-FAr" secondAttribute="bottom" id="jGp-xo-AdP"/>
+                        <constraint firstItem="ivj-By-WcZ" firstAttribute="top" secondItem="Np4-kE-suL" secondAttribute="top" id="npD-c0-7FY"/>
+                        <constraint firstItem="ivj-By-WcZ" firstAttribute="leading" secondItem="Np4-kE-suL" secondAttribute="leading" id="td7-zd-V5S"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Yjn-B2-ScH" secondAttribute="trailing" id="MLx-Uq-2TZ"/>
+                <constraint firstItem="Yjn-B2-ScH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ceR-dE-JTH"/>
+                <constraint firstItem="Yjn-B2-ScH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fiZ-n9-ghT"/>
+                <constraint firstItem="Np4-kE-suL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oRq-3n-61H"/>
+                <constraint firstAttribute="bottom" secondItem="Yjn-B2-ScH" secondAttribute="bottom" id="qEF-xt-BBx"/>
+                <constraint firstAttribute="bottom" secondItem="Np4-kE-suL" secondAttribute="bottom" id="rtf-Vs-wAU"/>
+                <constraint firstAttribute="trailing" secondItem="Np4-kE-suL" secondAttribute="trailing" id="yqu-ja-7vd"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="backgroundControl" destination="Yjn-B2-ScH" id="Ebk-an-v3X"/>
+                <outlet property="bottomView" destination="Np4-kE-suL" id="eNM-lW-Nyk"/>
+                <outlet property="bottomViewBottomSpacing" destination="rtf-Vs-wAU" id="LOY-BF-UY7"/>
+                <outlet property="pickerView" destination="gpq-TN-FAr" id="b9g-oS-NnR"/>
+            </connections>
+        </view>
+    </objects>
+</document>

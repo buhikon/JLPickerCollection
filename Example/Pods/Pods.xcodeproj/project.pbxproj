@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1014ED06E251B6387107E97DE90EE429 /* JLPickerCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DD73FB756516971A8EBB9992B1FF29 /* JLPickerCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BC50265CF28BFCE33113F8C886F0A44 /* Pods-JLPickerCollection_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFC1CAA3D82199EC732A79BBED21ECE /* Pods-JLPickerCollection_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DEEA3874D89B7E9B1F9C74BF8BADE6C /* JLPickerCollection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCFC09828B0C8BF97402D6230E851650 /* JLPickerCollection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		254E48DE553005B648C6C9F7385F4D16 /* JLTextPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 525EF8A4EF7CC56BB1008532FCC7E569 /* JLTextPickerView.m */; };
+		2C3E0342793A2FA73B228828BCC9187E /* Pods-JLPickerCollection_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BDCB5DCDBF27AA46370BFCD46E0CC00 /* Pods-JLPickerCollection_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CC3DB271088692625A22474BE04C7CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		354398D0D1D3091EACD780418F71E9FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4215C4887AC35EED3AE6229ABF62E6F2 /* JLDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE972A1C15A6630052AAF39865C33D46 /* JLDatePickerView.m */; };
+		58FD178C80E1761154417744169CBCC3 /* Pods-JLPickerCollection_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9B5E564ED80E6790E00AC661EF52C /* Pods-JLPickerCollection_Example-dummy.m */; };
+		647A03B089D76A937DBB36445EB1DE0F /* JLTextPickerView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1E3B2F9CEA61A3DB0D7FC2741BB03A7E /* JLTextPickerView.xib */; };
+		65C0AE73E9E6FD1E7DC94BFA9F736D17 /* JLDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D58D3A5F71183D9053183E15EE3FE0F2 /* JLDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E78A59D9F1839AD53A08EBEB4132DCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		78F5F2DBCA47998B47EC5C64310845CB /* JLDatePickerView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7F2A0F7B473370B4FAAB357C6F88F9F3 /* JLDatePickerView.xib */; };
+		B826690750AFFA675101A87EFB95D152 /* JLTextPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 286BAD9A0AB3275D4AE69E6B854762C2 /* JLTextPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42974EAC1196276E606EEAB6302BBAE /* JLPickerCollection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6C884E5D424A6EE50456CCF0B6E63 /* JLPickerCollection-dummy.m */; };
+		FCC5B4E881B0498CD2D905E56302768E /* Pods-JLPickerCollection_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7198C8B5253864ADF473C710796AD94 /* Pods-JLPickerCollection_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC62D88326529849A7B7639E1C972A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D19A482920A73551D07F01A4580630F3;
+			remoteInfo = JLPickerCollection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014089C7C7D0D1B7A4E023AC7D62DD4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E2CE258B2D382943534A0F351B7A49 /* JLPickerCollection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLPickerCollection-prefix.pch"; sourceTree = "<group>"; };
+		1E3B2F9CEA61A3DB0D7FC2741BB03A7E /* JLTextPickerView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = JLTextPickerView.xib; sourceTree = "<group>"; };
+		21BBAFCBC71A2FCA6C88D8885A274E4C /* Pods-JLPickerCollection_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLPickerCollection_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		27A9B5E564ED80E6790E00AC661EF52C /* Pods-JLPickerCollection_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLPickerCollection_Example-dummy.m"; sourceTree = "<group>"; };
+		286BAD9A0AB3275D4AE69E6B854762C2 /* JLTextPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLTextPickerView.h; sourceTree = "<group>"; };
+		34DD73FB756516971A8EBB9992B1FF29 /* JLPickerCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLPickerCollection.h; sourceTree = "<group>"; };
+		3BDCB5DCDBF27AA46370BFCD46E0CC00 /* Pods-JLPickerCollection_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLPickerCollection_Example-umbrella.h"; sourceTree = "<group>"; };
+		44C49CBED6C4BC10C301AA37D61080E5 /* Pods-JLPickerCollection_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JLPickerCollection_Tests.modulemap"; sourceTree = "<group>"; };
+		506AE67E15CDFDFA3912192DE4882E59 /* Pods-JLPickerCollection_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLPickerCollection_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		525EF8A4EF7CC56BB1008532FCC7E569 /* JLTextPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JLTextPickerView.m; sourceTree = "<group>"; };
+		5ED6C884E5D424A6EE50456CCF0B6E63 /* JLPickerCollection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLPickerCollection-dummy.m"; sourceTree = "<group>"; };
+		77F4EBCB4EE8C64D934486E03B6E4131 /* JLPickerCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JLPickerCollection.framework; path = JLPickerCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6F6F153460DF919B4F54E7871AE332 /* Pods-JLPickerCollection_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLPickerCollection_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F28DC2253FC7B6B3C209DE78FD003F8 /* Pods_JLPickerCollection_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLPickerCollection_Example.framework; path = "Pods-JLPickerCollection_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2A0F7B473370B4FAAB357C6F88F9F3 /* JLDatePickerView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = JLDatePickerView.xib; sourceTree = "<group>"; };
+		83C28BC367E94D7A407F83675CC57873 /* Pods-JLPickerCollection_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLPickerCollection_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8E1C2C698E31A122F54EB74E198BEAC5 /* JLPickerCollection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JLPickerCollection.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FFA21FECD82EA8FAD218F952762AEE0 /* JLPickerCollection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLPickerCollection.xcconfig; sourceTree = "<group>"; };
+		ABC71FC035490FFD0D7680396A27B5A3 /* Pods-JLPickerCollection_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLPickerCollection_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ACFC1CAA3D82199EC732A79BBED21ECE /* Pods-JLPickerCollection_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLPickerCollection_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B2D20B22C5A7A215B4E6CEC80D15889A /* Pods-JLPickerCollection_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLPickerCollection_Tests-resources.sh"; sourceTree = "<group>"; };
+		B7198C8B5253864ADF473C710796AD94 /* Pods-JLPickerCollection_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLPickerCollection_Tests-dummy.m"; sourceTree = "<group>"; };
+		B9DC477D0EFAB6DBAEC98D6AB05FE8FD /* Pods_JLPickerCollection_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLPickerCollection_Tests.framework; path = "Pods-JLPickerCollection_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE972A1C15A6630052AAF39865C33D46 /* JLDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JLDatePickerView.m; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCFC09828B0C8BF97402D6230E851650 /* JLPickerCollection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLPickerCollection-umbrella.h"; sourceTree = "<group>"; };
+		D22A1EC99F1B096E36C7CAF78ABF85B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58D3A5F71183D9053183E15EE3FE0F2 /* JLDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLDatePickerView.h; sourceTree = "<group>"; };
+		DFD4569135C1AC6D00C4C867BFAE1742 /* Pods-JLPickerCollection_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLPickerCollection_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E2EFDB63CA65DEB08D12E995BDD51293 /* Pods-JLPickerCollection_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLPickerCollection_Example-resources.sh"; sourceTree = "<group>"; };
+		EAD6A0B0F3575FA2DD02ADCB82FC7D9C /* Pods-JLPickerCollection_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLPickerCollection_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ED755A072A503AFEBD2B78CA0CE824B7 /* Pods-JLPickerCollection_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLPickerCollection_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ED8FD6F129A527702FE30F4DCF541A02 /* Pods-JLPickerCollection_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLPickerCollection_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F01D242FCF7AFF70D2B44D688A49ABAF /* Pods-JLPickerCollection_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLPickerCollection_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F88BD70174E517306753C6AC164FE515 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2FE757819FB3A04B67D52A45A88913 /* Pods-JLPickerCollection_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JLPickerCollection_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78D1B76521C604AB89C47D9DA788FCAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E78A59D9F1839AD53A08EBEB4132DCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC83B5845E1C7922EB593E306AA93EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC3DB271088692625A22474BE04C7CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE739034DB45A5EA53AC0BADC886812D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354398D0D1D3091EACD780418F71E9FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2939679684CD5C4578A63717C7CF57CB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				785E8752FF50A6D0E822B377A11ECEE5 /* JLPickerCollection */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		42966E2D403CA6317B35C1EF4175C06F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D22A1EC99F1B096E36C7CAF78ABF85B0 /* Info.plist */,
+				8E1C2C698E31A122F54EB74E198BEAC5 /* JLPickerCollection.modulemap */,
+				9FFA21FECD82EA8FAD218F952762AEE0 /* JLPickerCollection.xcconfig */,
+				5ED6C884E5D424A6EE50456CCF0B6E63 /* JLPickerCollection-dummy.m */,
+				05E2CE258B2D382943534A0F351B7A49 /* JLPickerCollection-prefix.pch */,
+				CCFC09828B0C8BF97402D6230E851650 /* JLPickerCollection-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JLPickerCollection";
+			sourceTree = "<group>";
+		};
+		4D61528AC037BF40565B410AF24D464C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77F4EBCB4EE8C64D934486E03B6E4131 /* JLPickerCollection.framework */,
+				7F28DC2253FC7B6B3C209DE78FD003F8 /* Pods_JLPickerCollection_Example.framework */,
+				B9DC477D0EFAB6DBAEC98D6AB05FE8FD /* Pods_JLPickerCollection_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		690190ACF2ABF96DDD1E6CE7E8D5F714 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D58D3A5F71183D9053183E15EE3FE0F2 /* JLDatePickerView.h */,
+				BE972A1C15A6630052AAF39865C33D46 /* JLDatePickerView.m */,
+				7F2A0F7B473370B4FAAB357C6F88F9F3 /* JLDatePickerView.xib */,
+				34DD73FB756516971A8EBB9992B1FF29 /* JLPickerCollection.h */,
+				286BAD9A0AB3275D4AE69E6B854762C2 /* JLTextPickerView.h */,
+				525EF8A4EF7CC56BB1008532FCC7E569 /* JLTextPickerView.m */,
+				1E3B2F9CEA61A3DB0D7FC2741BB03A7E /* JLTextPickerView.xib */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		69C1F7D87FF897ACFD8C586D544F3510 /* Pods-JLPickerCollection_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				014089C7C7D0D1B7A4E023AC7D62DD4D /* Info.plist */,
+				44C49CBED6C4BC10C301AA37D61080E5 /* Pods-JLPickerCollection_Tests.modulemap */,
+				506AE67E15CDFDFA3912192DE4882E59 /* Pods-JLPickerCollection_Tests-acknowledgements.markdown */,
+				ABC71FC035490FFD0D7680396A27B5A3 /* Pods-JLPickerCollection_Tests-acknowledgements.plist */,
+				B7198C8B5253864ADF473C710796AD94 /* Pods-JLPickerCollection_Tests-dummy.m */,
+				DFD4569135C1AC6D00C4C867BFAE1742 /* Pods-JLPickerCollection_Tests-frameworks.sh */,
+				B2D20B22C5A7A215B4E6CEC80D15889A /* Pods-JLPickerCollection_Tests-resources.sh */,
+				ACFC1CAA3D82199EC732A79BBED21ECE /* Pods-JLPickerCollection_Tests-umbrella.h */,
+				21BBAFCBC71A2FCA6C88D8885A274E4C /* Pods-JLPickerCollection_Tests.debug.xcconfig */,
+				ED755A072A503AFEBD2B78CA0CE824B7 /* Pods-JLPickerCollection_Tests.release.xcconfig */,
+			);
+			name = "Pods-JLPickerCollection_Tests";
+			path = "Target Support Files/Pods-JLPickerCollection_Tests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		785E8752FF50A6D0E822B377A11ECEE5 /* JLPickerCollection */ = {
+			isa = PBXGroup;
+			children = (
+				B12FE69F8F28BEDF15BD5EA01196F03B /* JLPickerCollection */,
+				42966E2D403CA6317B35C1EF4175C06F /* Support Files */,
+			);
+			name = JLPickerCollection;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2939679684CD5C4578A63717C7CF57CB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4D61528AC037BF40565B410AF24D464C /* Products */,
+				B1ED6CBBD64DD3DCAEEAE32C328F5A76 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B12FE69F8F28BEDF15BD5EA01196F03B /* JLPickerCollection */ = {
+			isa = PBXGroup;
+			children = (
+				690190ACF2ABF96DDD1E6CE7E8D5F714 /* Classes */,
+			);
+			name = JLPickerCollection;
+			path = JLPickerCollection;
+			sourceTree = "<group>";
+		};
+		B1ED6CBBD64DD3DCAEEAE32C328F5A76 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D138645A1D3A0DB5953873D67945218E /* Pods-JLPickerCollection_Example */,
+				69C1F7D87FF897ACFD8C586D544F3510 /* Pods-JLPickerCollection_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D138645A1D3A0DB5953873D67945218E /* Pods-JLPickerCollection_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F88BD70174E517306753C6AC164FE515 /* Info.plist */,
+				FA2FE757819FB3A04B67D52A45A88913 /* Pods-JLPickerCollection_Example.modulemap */,
+				7B6F6F153460DF919B4F54E7871AE332 /* Pods-JLPickerCollection_Example-acknowledgements.markdown */,
+				ED8FD6F129A527702FE30F4DCF541A02 /* Pods-JLPickerCollection_Example-acknowledgements.plist */,
+				27A9B5E564ED80E6790E00AC661EF52C /* Pods-JLPickerCollection_Example-dummy.m */,
+				83C28BC367E94D7A407F83675CC57873 /* Pods-JLPickerCollection_Example-frameworks.sh */,
+				E2EFDB63CA65DEB08D12E995BDD51293 /* Pods-JLPickerCollection_Example-resources.sh */,
+				3BDCB5DCDBF27AA46370BFCD46E0CC00 /* Pods-JLPickerCollection_Example-umbrella.h */,
+				EAD6A0B0F3575FA2DD02ADCB82FC7D9C /* Pods-JLPickerCollection_Example.debug.xcconfig */,
+				F01D242FCF7AFF70D2B44D688A49ABAF /* Pods-JLPickerCollection_Example.release.xcconfig */,
+			);
+			name = "Pods-JLPickerCollection_Example";
+			path = "Target Support Files/Pods-JLPickerCollection_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07D0C5047FF4EC3295F1DD6FCF7699BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3E0342793A2FA73B228828BCC9187E /* Pods-JLPickerCollection_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBEA05389C5442E183E0C5F5C427619 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C0AE73E9E6FD1E7DC94BFA9F736D17 /* JLDatePickerView.h in Headers */,
+				1DEEA3874D89B7E9B1F9C74BF8BADE6C /* JLPickerCollection-umbrella.h in Headers */,
+				1014ED06E251B6387107E97DE90EE429 /* JLPickerCollection.h in Headers */,
+				B826690750AFFA675101A87EFB95D152 /* JLTextPickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C3D02284F60F9D5D88689331F92AEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC50265CF28BFCE33113F8C886F0A44 /* Pods-JLPickerCollection_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5DC2E96357E48F3FF8D8D2952BAB5504 /* Pods-JLPickerCollection_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7663F0EA5B6BB660382CEB8CE62373C /* Build configuration list for PBXNativeTarget "Pods-JLPickerCollection_Example" */;
+			buildPhases = (
+				44B5621ED184AD41B40D5B63F8686EDC /* Sources */,
+				78D1B76521C604AB89C47D9DA788FCAB /* Frameworks */,
+				07D0C5047FF4EC3295F1DD6FCF7699BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A6BE3715C2179A93C6B18EAF25B36F /* PBXTargetDependency */,
+			);
+			name = "Pods-JLPickerCollection_Example";
+			productName = "Pods-JLPickerCollection_Example";
+			productReference = 7F28DC2253FC7B6B3C209DE78FD003F8 /* Pods_JLPickerCollection_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		667DC7BE9F4CAA1D6014367E6F1B2E73 /* Pods-JLPickerCollection_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633E78BA24194DDB6D19C8FF220103D1 /* Build configuration list for PBXNativeTarget "Pods-JLPickerCollection_Tests" */;
+			buildPhases = (
+				64EC04107B9F91DAE866FC1FD2039E8C /* Sources */,
+				FE739034DB45A5EA53AC0BADC886812D /* Frameworks */,
+				C9C3D02284F60F9D5D88689331F92AEB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JLPickerCollection_Tests";
+			productName = "Pods-JLPickerCollection_Tests";
+			productReference = B9DC477D0EFAB6DBAEC98D6AB05FE8FD /* Pods_JLPickerCollection_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D19A482920A73551D07F01A4580630F3 /* JLPickerCollection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62240716DD28C8452C85F45ADA6C7D56 /* Build configuration list for PBXNativeTarget "JLPickerCollection" */;
+			buildPhases = (
+				43874C8E1A5F931AE9FBA823AE00BAF5 /* Sources */,
+				FC83B5845E1C7922EB593E306AA93EE3 /* Frameworks */,
+				1EBEA05389C5442E183E0C5F5C427619 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLPickerCollection;
+			productName = JLPickerCollection;
+			productReference = 77F4EBCB4EE8C64D934486E03B6E4131 /* JLPickerCollection.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4D61528AC037BF40565B410AF24D464C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D19A482920A73551D07F01A4580630F3 /* JLPickerCollection */,
+				5DC2E96357E48F3FF8D8D2952BAB5504 /* Pods-JLPickerCollection_Example */,
+				667DC7BE9F4CAA1D6014367E6F1B2E73 /* Pods-JLPickerCollection_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43874C8E1A5F931AE9FBA823AE00BAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4215C4887AC35EED3AE6229ABF62E6F2 /* JLDatePickerView.m in Sources */,
+				78F5F2DBCA47998B47EC5C64310845CB /* JLDatePickerView.xib in Sources */,
+				E42974EAC1196276E606EEAB6302BBAE /* JLPickerCollection-dummy.m in Sources */,
+				254E48DE553005B648C6C9F7385F4D16 /* JLTextPickerView.m in Sources */,
+				647A03B089D76A937DBB36445EB1DE0F /* JLTextPickerView.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B5621ED184AD41B40D5B63F8686EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FD178C80E1761154417744169CBCC3 /* Pods-JLPickerCollection_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64EC04107B9F91DAE866FC1FD2039E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC5B4E881B0498CD2D905E56302768E /* Pods-JLPickerCollection_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75A6BE3715C2179A93C6B18EAF25B36F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLPickerCollection;
+			target = D19A482920A73551D07F01A4580630F3 /* JLPickerCollection */;
+			targetProxy = FC62D88326529849A7B7639E1C972A3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		008093098D435BABF68EF59081B0B1D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FFA21FECD82EA8FAD218F952762AEE0 /* JLPickerCollection.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLPickerCollection/JLPickerCollection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLPickerCollection/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLPickerCollection/JLPickerCollection.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JLPickerCollection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		15F7275E0837D82CFFC918ED8A6B1C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21BBAFCBC71A2FCA6C88D8885A274E4C /* Pods-JLPickerCollection_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLPickerCollection_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLPickerCollection_Tests/Pods-JLPickerCollection_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLPickerCollection_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49D73DBDFAEB70FB20A3281CFF9762ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FFA21FECD82EA8FAD218F952762AEE0 /* JLPickerCollection.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLPickerCollection/JLPickerCollection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLPickerCollection/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLPickerCollection/JLPickerCollection.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JLPickerCollection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7876883103E1D9C66E8A1DBB4D509174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED755A072A503AFEBD2B78CA0CE824B7 /* Pods-JLPickerCollection_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLPickerCollection_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLPickerCollection_Tests/Pods-JLPickerCollection_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLPickerCollection_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93A8105FAF4E0DE9F24839DE3145C2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01D242FCF7AFF70D2B44D688A49ABAF /* Pods-JLPickerCollection_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLPickerCollection_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLPickerCollection_Example/Pods-JLPickerCollection_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLPickerCollection_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFB3C0E542794DF62E3FA2264C1568D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAD6A0B0F3575FA2DD02ADCB82FC7D9C /* Pods-JLPickerCollection_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLPickerCollection_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLPickerCollection_Example/Pods-JLPickerCollection_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLPickerCollection_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62240716DD28C8452C85F45ADA6C7D56 /* Build configuration list for PBXNativeTarget "JLPickerCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D73DBDFAEB70FB20A3281CFF9762ED /* Debug */,
+				008093098D435BABF68EF59081B0B1D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633E78BA24194DDB6D19C8FF220103D1 /* Build configuration list for PBXNativeTarget "Pods-JLPickerCollection_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F7275E0837D82CFFC918ED8A6B1C57 /* Debug */,
+				7876883103E1D9C66E8A1DBB4D509174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7663F0EA5B6BB660382CEB8CE62373C /* Build configuration list for PBXNativeTarget "Pods-JLPickerCollection_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB3C0E542794DF62E3FA2264C1568D9 /* Debug */,
+				93A8105FAF4E0DE9F24839DE3145C2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
