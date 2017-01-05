@@ -1,10 +1,14 @@
 //
 //  JLPickerCollection.h
-//  Pods
 //
-//  Created by Joey Lee on 05/01/2017.
+//  Version 0.1.2
 //
+//  Created by Joey L. Feb/18/2016.
+//  Copyright (c) 2016 Joey L. All rights reserved.
 //
+//  https://github.com/buhikon/JLPickerCollection
+//
+
 
 #ifndef JLPickerCollection_h
 #define JLPickerCollection_h

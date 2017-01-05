@@ -1,7 +1,7 @@
 //
 //  JLDatePickerView.m
 //
-//  Version 0.1.1
+//  Version 0.1.2
 //
 //  Created by Joey L. Feb/18/2016.
 //  Copyright (c) 2016 Joey L. All rights reserved.

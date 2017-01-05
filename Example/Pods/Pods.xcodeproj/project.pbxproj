@@ -44,23 +44,23 @@
 		286BAD9A0AB3275D4AE69E6B854762C2 /* JLTextPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLTextPickerView.h; sourceTree = "<group>"; };
 		34DD73FB756516971A8EBB9992B1FF29 /* JLPickerCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLPickerCollection.h; sourceTree = "<group>"; };
 		3BDCB5DCDBF27AA46370BFCD46E0CC00 /* Pods-JLPickerCollection_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLPickerCollection_Example-umbrella.h"; sourceTree = "<group>"; };
-		44C49CBED6C4BC10C301AA37D61080E5 /* Pods-JLPickerCollection_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JLPickerCollection_Tests.modulemap"; sourceTree = "<group>"; };
+		44C49CBED6C4BC10C301AA37D61080E5 /* Pods-JLPickerCollection_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JLPickerCollection_Tests.modulemap"; sourceTree = "<group>"; };
 		506AE67E15CDFDFA3912192DE4882E59 /* Pods-JLPickerCollection_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLPickerCollection_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		525EF8A4EF7CC56BB1008532FCC7E569 /* JLTextPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JLTextPickerView.m; sourceTree = "<group>"; };
 		5ED6C884E5D424A6EE50456CCF0B6E63 /* JLPickerCollection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLPickerCollection-dummy.m"; sourceTree = "<group>"; };
-		77F4EBCB4EE8C64D934486E03B6E4131 /* JLPickerCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JLPickerCollection.framework; path = JLPickerCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F4EBCB4EE8C64D934486E03B6E4131 /* JLPickerCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLPickerCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6F6F153460DF919B4F54E7871AE332 /* Pods-JLPickerCollection_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLPickerCollection_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7F28DC2253FC7B6B3C209DE78FD003F8 /* Pods_JLPickerCollection_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLPickerCollection_Example.framework; path = "Pods-JLPickerCollection_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F28DC2253FC7B6B3C209DE78FD003F8 /* Pods_JLPickerCollection_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLPickerCollection_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F2A0F7B473370B4FAAB357C6F88F9F3 /* JLDatePickerView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = JLDatePickerView.xib; sourceTree = "<group>"; };
 		83C28BC367E94D7A407F83675CC57873 /* Pods-JLPickerCollection_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLPickerCollection_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8E1C2C698E31A122F54EB74E198BEAC5 /* JLPickerCollection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JLPickerCollection.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E1C2C698E31A122F54EB74E198BEAC5 /* JLPickerCollection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JLPickerCollection.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FFA21FECD82EA8FAD218F952762AEE0 /* JLPickerCollection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLPickerCollection.xcconfig; sourceTree = "<group>"; };
 		ABC71FC035490FFD0D7680396A27B5A3 /* Pods-JLPickerCollection_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLPickerCollection_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		ACFC1CAA3D82199EC732A79BBED21ECE /* Pods-JLPickerCollection_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLPickerCollection_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B2D20B22C5A7A215B4E6CEC80D15889A /* Pods-JLPickerCollection_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLPickerCollection_Tests-resources.sh"; sourceTree = "<group>"; };
 		B7198C8B5253864ADF473C710796AD94 /* Pods-JLPickerCollection_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLPickerCollection_Tests-dummy.m"; sourceTree = "<group>"; };
-		B9DC477D0EFAB6DBAEC98D6AB05FE8FD /* Pods_JLPickerCollection_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLPickerCollection_Tests.framework; path = "Pods-JLPickerCollection_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DC477D0EFAB6DBAEC98D6AB05FE8FD /* Pods_JLPickerCollection_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLPickerCollection_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE972A1C15A6630052AAF39865C33D46 /* JLDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JLDatePickerView.m; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CCFC09828B0C8BF97402D6230E851650 /* JLPickerCollection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLPickerCollection-umbrella.h"; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		ED8FD6F129A527702FE30F4DCF541A02 /* Pods-JLPickerCollection_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLPickerCollection_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F01D242FCF7AFF70D2B44D688A49ABAF /* Pods-JLPickerCollection_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLPickerCollection_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F88BD70174E517306753C6AC164FE515 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA2FE757819FB3A04B67D52A45A88913 /* Pods-JLPickerCollection_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JLPickerCollection_Example.modulemap"; sourceTree = "<group>"; };
+		FA2FE757819FB3A04B67D52A45A88913 /* Pods-JLPickerCollection_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JLPickerCollection_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,15 +139,14 @@
 		690190ACF2ABF96DDD1E6CE7E8D5F714 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				34DD73FB756516971A8EBB9992B1FF29 /* JLPickerCollection.h */,
 				D58D3A5F71183D9053183E15EE3FE0F2 /* JLDatePickerView.h */,
 				BE972A1C15A6630052AAF39865C33D46 /* JLDatePickerView.m */,
 				7F2A0F7B473370B4FAAB357C6F88F9F3 /* JLDatePickerView.xib */,
-				34DD73FB756516971A8EBB9992B1FF29 /* JLPickerCollection.h */,
 				286BAD9A0AB3275D4AE69E6B854762C2 /* JLTextPickerView.h */,
 				525EF8A4EF7CC56BB1008532FCC7E569 /* JLTextPickerView.m */,
 				1E3B2F9CEA61A3DB0D7FC2741BB03A7E /* JLTextPickerView.xib */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -203,7 +202,6 @@
 			children = (
 				690190ACF2ABF96DDD1E6CE7E8D5F714 /* Classes */,
 			);
-			name = JLPickerCollection;
 			path = JLPickerCollection;
 			sourceTree = "<group>";
 		};
