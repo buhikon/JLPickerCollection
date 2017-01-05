@@ -20,6 +20,10 @@ it, simply add the following line to your Podfile:
 pod "JLPickerCollection"
 ```
 
+## demo
+
+[![](https://raw.github.com/buhikon/JLAccordion/master/demo.gif)](https://raw.github.com/buhikon/JLAccordion/master/demo.gif)
+
 ## Author
 
 Joey Lee, slarinz@gmail.com
