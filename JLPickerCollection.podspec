@@ -28,11 +28,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JLPickerCollection/Classes/**/*'
+#  s.source_files = 'JLPickerCollection/Classes/**/*'
+  s.source_files = 'JLPickerCollection/Classes/*.{h,m}'
+  s.resources = 'JLPickerCollection/Classes/*.{xib}'
 #  s.resource_bundles = {
 #    'JLPickerCollection' => ['JLPickerCollection/Classes/*.xib']
 #}
-#  s.resources = ["Classes/JLDatePickerView.xib","Classes/JLTextPickerView.xib"]
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
