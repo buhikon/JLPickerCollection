@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JLPickerCollection'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'date picker and picker view with simple interface.'
 
 # This description is used to generate tags and improve search results.
@@ -29,11 +29,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'JLPickerCollection/Classes/**/*'
-  
-  #  s.resource_bundles = {
-  #    'JLPickerCollection' => ['JLPickerCollection/Classes/*.xib']
-  #  }
-  # s.resources = "JLPickerCollection/**/*.xib"
+  s.resource_bundles = {
+    'JLPickerCollection' => ['JLPickerCollection/Classes/*.xib']
+  }
+  s.resources = "JLPickerCollection/**/*.xib"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -1,7 +1,7 @@
 //
 //  JLTextPickerView.h
 //
-//  Version 0.1.0
+//  Version 0.1.1
 //
 //  Created by Joey L. Feb/18/2016.
 //  Copyright (c) 2016 Joey L. All rights reserved.
