@@ -26,6 +26,7 @@
                   @[@"date and time picker",@"showDateAndTimePicker"],
                   @[@"date and time picker (locale JP)",@"showDateAndTimePickerWithLocaleJP"],
                   @[@"text picker",@"showTextPicker"],
+                  @[@"text picker (multiple columns)",@"showTextPickerMulti"],
                   ];
 }
 
@@ -111,6 +112,14 @@
                                     resultBlock:^(BOOL success, NSInteger index, NSString *name) {
                                         NSLog(@"success : %d, index : %d, name : %@", success, (int)index, name);
                                     }];
+}
+- (void)showTextPickerMulti {
+    [[JLTextPickerView instance] showMultiColumnsPicker:@[@[@"2001",@"2002",@"2003",@"2004",@"2005"],@[@"Jan",@"Feb",@"Mar",@"Apr"]]
+                                         currentIndexes:@[@(1),@(2)]
+                                                 onView:self.view
+                                            resultBlock:^(BOOL success, NSArray<NSNumber *> *indexArray, NSArray<NSString *> *nameArray) {
+        NSLog(@"success : %d, indexArray : %@, nameArray : %@", success, indexArray, nameArray);
+    }];
 }
 
 //=====================================================================================================

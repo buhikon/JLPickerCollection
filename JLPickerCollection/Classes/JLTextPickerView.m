@@ -1,7 +1,7 @@
 //
 //  JLTextPickerView.m
 //
-//  Version 0.1.2
+//  Version 0.1.3
 //
 //  Created by Joey L. Feb/18/2016.
 //  Copyright (c) 2016 Joey L. All rights reserved.
@@ -19,8 +19,9 @@
 @property (weak, nonatomic) IBOutlet UIView *bottomView;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *bottomViewBottomSpacing;
 @property (weak, nonatomic) IBOutlet UIPickerView *pickerView;
-@property (strong, nonatomic) NSArray<NSString *> *dataArray;
+@property (strong, nonatomic) NSArray<NSArray <NSString *> *> *arrayOfStrings;
 @property (copy, nonatomic) JLTextPickerViewResult resultBlock;
+@property (copy, nonatomic) JLTextPickerViewMultiResult multiResultBlock;
 @end
 
 @implementation JLTextPickerView
@@ -47,11 +48,29 @@
     dispatch_async(dispatch_get_main_queue(), ^{
         self.frame = CGRectMake(0, 0, view.frame.size.width, view.frame.size.height);
         self.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-        self.dataArray = strings;
+        self.arrayOfStrings = @[strings];
         self.resultBlock = resultBlock;
         [view addSubview:self];
         
         [self.pickerView selectRow:currentIndex inComponent:0 animated:NO];
+        [self showViewAnimated:YES];
+    });
+}
+
+- (void)showMultiColumnsPicker:(NSArray <NSArray <NSString *> *> *)arrayOfString
+                currentIndexes:(NSArray <NSNumber *> *)arrayOfCurrentIndex
+                        onView:(UIView *)view
+                   resultBlock:(JLTextPickerViewMultiResult)resultBlock {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        self.frame = CGRectMake(0, 0, view.frame.size.width, view.frame.size.height);
+        self.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+        self.arrayOfStrings = arrayOfString;
+        self.multiResultBlock = resultBlock;
+        [view addSubview:self];
+        
+        for(NSInteger i=0; i<arrayOfCurrentIndex.count; i++) {
+            [self.pickerView selectRow:[arrayOfCurrentIndex[i] integerValue] inComponent:i animated:NO];
+        }
         [self showViewAnimated:YES];
     });
 }
@@ -115,34 +134,41 @@
     [self setNeedsLayout];
     [self layoutIfNeeded];
 }
-
-#pragma mark - event
-
-- (IBAction)backgroundTapped:(id)sender {
+- (void)callbackWithSuccess:(BOOL)success {
     if(self.resultBlock) {
-//        self.resultBlock(NO, -1, nil);
-        
         NSInteger index = -1;
         NSString *name = nil;
         @try {
             index = [self.pickerView selectedRowInComponent:0];
-            name = self.dataArray[index];
+            name = self.arrayOfStrings[0][index];
         }
         @catch (NSException *e) { NSLog(@"%@", e); }
-        self.resultBlock(NO, index, name);
+        self.resultBlock(success, index, name);
     }
+    if(self.multiResultBlock) {
+        NSMutableArray *indexArray = [[NSMutableArray alloc] init];
+        NSMutableArray *nameArray = [[NSMutableArray alloc] init];
+        @try {
+            for(NSInteger i=0; i<self.arrayOfStrings.count; i++) {
+                NSInteger index = [self.pickerView selectedRowInComponent:i];
+                NSString *name = self.arrayOfStrings[i][index];
+                [indexArray addObject:@(index)];
+                [nameArray addObject:name];
+            }
+        }
+        @catch (NSException *e) { NSLog(@"%@", e); }
+        self.multiResultBlock(success, indexArray, nameArray);
+    }
+}
+
+#pragma mark - event
+
+- (IBAction)backgroundTapped:(id)sender {
+    [self callbackWithSuccess:NO];
     [self hideViewAnimated:YES];
 }
 - (IBAction)doneButtonTapped:(id)sender {
-    if(self.resultBlock) {
-        NSInteger index = [self.pickerView selectedRowInComponent:0];
-        NSString *name = nil;
-        @try {
-            name = self.dataArray[index];
-        }
-        @catch (NSException *e) { NSLog(@"%@", e); }
-        self.resultBlock(YES, index, name);
-    }
+    [self callbackWithSuccess:YES];
     [self hideViewAnimated:YES];
 }
 
@@ -150,16 +176,16 @@
 
 // returns the number of 'columns' to display.
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
-    return 1;
+    return self.arrayOfStrings.count;
 }
 
 // returns the # of rows in each component..
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
-    return self.dataArray.count;
+    return self.arrayOfStrings[component].count;
 }
 
 - (nullable NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
-    return self.dataArray[row];
+    return self.arrayOfStrings[component][row];
 }
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
 

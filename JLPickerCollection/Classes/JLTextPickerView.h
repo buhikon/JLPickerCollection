@@ -1,7 +1,7 @@
 //
 //  JLTextPickerView.h
 //
-//  Version 0.1.2
+//  Version 0.1.3
 //
 //  Created by Joey L. Feb/18/2016.
 //  Copyright (c) 2016 Joey L. All rights reserved.
@@ -12,6 +12,7 @@
 #import <UIKit/UIKit.h>
 
 typedef void(^JLTextPickerViewResult)(BOOL success, NSInteger index, NSString *name);
+typedef void(^JLTextPickerViewMultiResult)(BOOL success, NSArray<NSNumber *> *indexArray, NSArray<NSString *> *nameArray);
 
 @interface JLTextPickerView : UIView
 
@@ -21,5 +22,10 @@ typedef void(^JLTextPickerViewResult)(BOOL success, NSInteger index, NSString *n
           currentIndex:(NSInteger)currentIndex
                 onView:(UIView *)view
            resultBlock:(JLTextPickerViewResult)resultBlock;
+
+- (void)showMultiColumnsPicker:(NSArray <NSArray <NSString *> *> *)arrayOfString
+                currentIndexes:(NSArray <NSNumber *> *)arrayOfCurrentIndex
+                        onView:(UIView *)view
+                   resultBlock:(JLTextPickerViewMultiResult)resultBlock;
 
 @end
