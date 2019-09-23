@@ -1,7 +1,7 @@
 //
 //  JLTextPickerView.m
 //
-//  Version 0.1.3
+//  Version 0.1.4
 //
 //  Created by Joey L. Feb/18/2016.
 //  Copyright (c) 2016 Joey L. All rights reserved.
@@ -80,8 +80,13 @@
 - (void)awakeFromNib
 {
     [super awakeFromNib];
-    
+    [self updateViews];
 //    [self hideViewAction];
+}
+
+- (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection {
+    [super traitCollectionDidChange:previousTraitCollection];
+    [self updateViews];
 }
 
 #pragma mark - accessor
@@ -91,6 +96,15 @@
 
 #pragma mark - private methods
 
+- (void)updateViews {
+    if (@available(iOS 12.0, *)) {
+        if (self.traitCollection.userInterfaceStyle == UIUserInterfaceStyleDark) {
+            self.bottomView.backgroundColor = UIColor.blackColor;
+        } else {
+            self.bottomView.backgroundColor = UIColor.whiteColor;
+        }
+    }
+}
 - (void)showView {
     [self showViewAnimated:NO];
 }
